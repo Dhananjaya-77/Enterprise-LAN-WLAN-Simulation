@@ -1,0 +1,52 @@
+### 1. Navigate to the Project Folder                                      
+                                                                             
+  Because the folder name contains spaces and a colon (:), wrap the path in  
+  quotes in your terminal:                                                   
+                                                                             
+    cd "/Users/hasithadhananjaya/Desktop/Enterprise LAN:WLAN Design &        
+    Subnetting Simulation "                                                  
+  ──────                                                                     
+  ### 2. Install Dependencies                                                
+                                                                             
+  If you ever clone or copy the project to a new machine or pull updates:    
+                                                                             
+    npm install                                                              
+  ──────                                                                     
+  ### 3. Start the Development Server                                        
+                                                                             
+  Starts the local development server with hot module replacement (HMR):     
+                                                                             
+    npm run dev                                                              
+                                                                             
+  │ Direct binary alternative (if needed):                                   
+  │                                                                          
+  │   node ./node_modules/vite/bin/vite.js                                   
+                                                                             
+  Then open your browser to http://localhost:3000 (or run open               
+  http://localhost:3000 on macOS).                                           
+  ──────                                                                     
+  ### 4. Build for Production                                                
+                                                                             
+  Type-checks TypeScript and compiles the optimized production bundle into   
+  the dist/ folder:                                                          
+                                                                             
+    npm run build                                                            
+  ──────                                                                     
+  ### 5. Preview the Production Build                                        
+                                                                             
+  Locally tests and serves the production build created in dist/:            
+                                                                             
+    npm run preview                                                          
+  ──────                                                                     
+  ### 6. Useful Optional Flags                                               
+                                                                             
+  • Expose to Local Network (accessible from other devices / tablets on your 
+  Wi-Fi):                                                                    
+    npm run dev -- --host                                                    
+                                                                             
+  • Run on a Custom Port (e.g. port 8080):                                   
+    npm run dev -- --port 8080                                               
+                                                                             
+  • Automatically Open Browser on Start:                                     
+    npm run dev -- --open                                                    
+                         
